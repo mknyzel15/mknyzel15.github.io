@@ -1,0 +1,323 @@
+	body { 
+	margin: auto;	
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	color:#547077;
+	height: 100%;
+	line-height: 1.4;
+}
+	#header { 
+	
+	
+}
+	.header-image {
+	background-image: url('header-image4.jpg') ;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+ 	filter: brightness(0.7);
+    -webkit-filter: brightness(0.7);
+	width: 100%; 
+	height: 600px;
+	 /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+	ul { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 40px;
+}
+	li { 
+	display: inline; 
+	float: right; 
+	font-size: 18px;
+}
+	li a { 
+	display: inline-block; 
+	padding: 14px 16px; 
+	text-decoration: none;
+	color: white;
+}
+	li a:visited { 
+	text-decoration: none;
+	outline: 0;
+}
+	.header-text { 
+	position: absolute; 
+	top: 27%; 
+	left: 25%; 
+	text-align: center; 
+	color: white;
+}
+	.header-text p {
+	font-size: 20px;
+	color: #1abc9c;
+}
+	.header-text button {
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #547077;
+    padding: 1px;
+    border-radius: 8px;
+	background-color: #547077;
+	width: 150px;
+    cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+}
+	h1 { 
+	font-size: 34px;
+	vertical-align: middle;
+	margin: 0;
+}
+	.container-white { 
+	background-color: white; 
+	width: 1000px; 
+	margin: auto;
+	text-align: center;
+}
+	.container-grey { 
+	background-color: rgba(239,239,239,1.00);
+	width: 100%; 
+	text-align: center;
+	margin: 0;
+}
+	h2 { 
+	text-align: center;
+	font-size:40px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	color: #547077;
+}
+	h3 {
+	color: #1abc9c; 	
+}
+	hr {	
+	width: 70px; 
+	height: 5px;
+	border-style: solid;
+	background-color: #1abc9c;
+	color: #1abc9c;
+}
+	.box { 
+	display: inline-block; 
+	width: 400px; 
+	margin: 20px;
+	padding: 20px;
+	text-align:center;
+}
+	.box i { 
+	margin-bottom: 20px;
+	color: #547077;
+}
+	.resume-row {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+	.hovereffect {
+	display: inline-block;	
+  	overflow: hidden;
+  	position: relative;
+  	text-align: center;
+  	cursor: default;
+}
+
+	.hovereffect .overlay {
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 70%;
+    left: 10%;
+    top: 20%;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    transform: scale(0,1);
+    color: white;
+}
+
+	.hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+    .hovereffect img {
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+    .hovereffect:hover img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+    filter: brightness(0.6);
+    -webkit-filter: brightness(0.6);
+}
+
+	.feedbacks-row {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+	.text-right {
+	max-width: 45%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding: 20px;
+	padding-top: 50px;
+}
+	.img-left {
+	float: left;
+}
+	.img-right {
+	float: right;
+}
+	.text-left {
+	max-width: 45%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding: 20px;
+	padding-top: 50px;
+
+}
+	.author {
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+	.quote-img {
+	background-image: url('road.jpg'); 
+	width: 100%; 
+	height: 250px; 
+	/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+	#quote h3 {
+	font-size: 30px;
+	color: white;
+}
+	.text-quote-img {
+	position: relative;
+	top: 100px; 
+	text-align: center; 
+	color: white;
+}
+	 form {
+	 max-width: 600px;
+	 text-align: center;
+     margin: 20px auto;
+}
+	 input, textarea {
+	 border-style: solid;
+	 border-width: 1px;
+	 border-color: #547077;
+     padding: 1em;
+     border-radius: 8px;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     resize: none;
+	 color: #1abc9c;
+}
+	.submit {	
+	 font-family: FontAwesome; 'Roboto', sans-serif;
+     color: white; 
+     background-color: #547077;
+	 width: 100px;
+     cursor: pointer;
+	 text-align: center;
+	 position: relative; 
+	 left: 80%;
+}
+	.footer-img {
+	background-image: url('header-image.jpg'); 
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+ 	filter: brightness(0.3);
+    -webkit-filter: brightness(0.3);
+	width: 100%; 
+	height: 200px; 
+	/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+	.container-dark div { 
+	background-color: #080C13;
+	width: 100%; 
+	margin: auto;
+}
+	.button-up {
+	padding-top: 20px;
+	text-align: center;
+}
+	.button-up a {
+	text-decoration: none;
+	color: #547077;
+}
+	.button-up a:hover {
+	color: #1abc9c;
+}
+	.button-up a:visited {
+	text-decoration: none;
+}
+	.footer-row {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+	.date-tag {
+	max-width: 45%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	padding-top: 30px;
+	letter-spacing: 2px;
+	font-size: 14px;	
+}
+	.links {
+	max-width: 45%;
+	float: right;
+	display: inline-block;
+	text-align: right;
+	padding-right: 70px;
+	padding-top: 30px;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+	.links i {
+	margin: 15px;
+}
+	.links a {
+	text-decoration: none;
+	color: #547077;
+}
+	.links a:hover {
+	color: #1abc9c;
+}
+	.links a:visited {
+	text-decoration: none;
+}
